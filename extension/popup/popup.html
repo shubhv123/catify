@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catify</title>
+  <!-- Modern Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-wrapper">
+        <span class="cat-logo">🐱</span>
+        <div class="logo-glow"></div>
+      </div>
+      <div class="title-section">
+        <h1>Catify</h1>
+        <p class="subtitle">Image Purr-placer</p>
+      </div>
+    </header>
+
+    <!-- Controls -->
+    <main class="controls">
+      <!-- Toggle Row -->
+      <div class="control-card">
+        <div class="card-info">
+          <span class="card-title">Auto-Catify</span>
+          <span class="card-desc">Replace images on load</span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="enableToggle" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <!-- Action Button -->
+      <button id="catifyNowBtn" class="btn-primary">
+        <span>Catify Page Now</span>
+        <span class="paw-icon">🐾</span>
+      </button>
+
+      <!-- Stats Grid -->
+      <div class="stats-container">
+        <div class="stat-box">
+          <span class="stat-value" id="statsCount">0</span>
+          <span class="stat-label">Cats Spawned</span>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="status-indicator">
+        <span class="status-dot" id="statusDot"></span>
+        <span class="status-text" id="statusText">Checking server...</span>
+      </div>
+      <span class="version">v1.0.0</span>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

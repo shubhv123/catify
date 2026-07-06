@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database/Persistent Stats
+backend/stats.json
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
