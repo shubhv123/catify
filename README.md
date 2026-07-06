@@ -47,10 +47,8 @@ Chrome Extension/
 
 First, ensure you have Python 3 installed. Then set up and start the FastAPI server:
 
-1. Navigate to the project root:
-   ```bash
-   cd "/Users/shubhverma/vscode/Chrome Extension"
-   ```
+1. Navigate to the project root
+
 2. Create and activate a virtual environment:
    ```bash
    python3 -m venv venv
